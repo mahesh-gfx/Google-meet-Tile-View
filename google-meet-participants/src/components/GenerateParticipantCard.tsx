@@ -20,8 +20,16 @@ function GenerateParticipantCard(prop: any) {
         className="participant-card"
         style={{
           display: "flex",
-          height: "56px",
+          flexDirection: "column",
+          height: "250px",
           padding: "0px 16px 0px 20px",
+          backgroundColor: "#3c4043",
+          width: 360,
+          alignItems: "center",
+          justifyContent: "center",
+          margin: 16,
+          borderRadius: 10,
+          position: "relative",
         }}
       >
         <div
@@ -31,7 +39,14 @@ function GenerateParticipantCard(prop: any) {
           <GenerateAvatar src={profile} />
           <div
             className="username"
-            style={{ fontSize: "14px", fontWeight: 400, color: "#5f6368" }}
+            style={{
+              fontSize: "14px",
+              fontWeight: 400,
+              position: "absolute",
+              left: "15px",
+              bottom: "15px",
+              color: "white",
+            }}
           >
             {name}
           </div>

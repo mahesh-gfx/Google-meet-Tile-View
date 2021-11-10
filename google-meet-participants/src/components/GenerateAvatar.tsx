@@ -4,7 +4,7 @@ function GenerateAvatar(prop: any) {
     <div className="avatar">
       <img
         src={src}
-        style={{ height: "32px", marginRight: "16px", borderRadius: "25em" }}
+        style={{ height: "100px", marginRight: "16px", borderRadius: "25em" }}
         alt=""
       />
     </div>
